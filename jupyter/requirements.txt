@@ -57,9 +57,8 @@ xgboost==0.82
 # you need a GPU card with CUDA Compute Capability 3.0 or higher support, and
 # you must install CUDA, cuDNN and more: see tensorflow.org for the detailed
 # installation instructions.
-tensorflow==1.13.1
-#tensorflow-gpu==1.13.1
-tensorflow-estimator==1.13.0
+tensorflow==2.0.0
+#tensorflow-gpu==2.0.0
 
 # Optional: OpenAI gym is only needed for the Reinforcement Learning chapter.
 # There are a few dependencies you need to install first, check out:
