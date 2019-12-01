@@ -7,5 +7,6 @@ services:
       context: ./jupyter/
     ports:
       - "8888:8888"
+      - "6006-6016:6006-6016"
     volumes:
       - ./jupyter:/home/jupyterlab
